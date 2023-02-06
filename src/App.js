@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Board />
+      <Board nrows={4} ncols={4} chanceLightStartsOn={0.3}  />
     </div>
   );
 }
