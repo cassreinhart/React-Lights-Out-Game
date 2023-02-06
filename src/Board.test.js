@@ -18,3 +18,4 @@ it('displays winning message when all lights are out', () => {
 
     expect(h2).toBeInTheDocument()
 })
+
